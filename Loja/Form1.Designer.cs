@@ -459,9 +459,9 @@
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.numericUpDown1);
-            this.groupBox1.Location = new System.Drawing.Point(1, 195);
+            this.groupBox1.Location = new System.Drawing.Point(1, 189);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1154, 381);
+            this.groupBox1.Size = new System.Drawing.Size(1154, 387);
             this.groupBox1.TabIndex = 45;
             this.groupBox1.TabStop = false;
             // 
