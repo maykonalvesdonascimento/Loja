@@ -83,6 +83,16 @@ namespace Loja.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundo {
+            get {
+                object obj = ResourceManager.GetObject("fundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gabinete {
             get {
                 object obj = ResourceManager.GetObject("gabinete", resourceCulture);
@@ -93,9 +103,9 @@ namespace Loja.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap kabum_logo {
+        internal static System.Drawing.Bitmap header {
             get {
-                object obj = ResourceManager.GetObject("kabum_logo", resourceCulture);
+                object obj = ResourceManager.GetObject("header", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +116,16 @@ namespace Loja.Properties {
         internal static System.Drawing.Bitmap memoria {
             get {
                 object obj = ResourceManager.GetObject("memoria", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu2 {
+            get {
+                object obj = ResourceManager.GetObject("menu2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
