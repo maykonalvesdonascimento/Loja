@@ -86,5 +86,29 @@
   <ItemGroup>
     <None Include="Resources\carrinho.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gabinete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memoria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placaDeVideo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placaMae.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\processador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watercooler.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
