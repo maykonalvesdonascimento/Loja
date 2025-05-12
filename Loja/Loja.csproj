@@ -84,9 +84,6 @@
     <None Include="Resources\kabum logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\carrinho.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\fonte.png" />
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +115,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fundo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrinho.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
