@@ -48,8 +48,10 @@ namespace Loja
             }
             else
             {
-                ChkP1.Text = "Produto1";
-                PicProduto1.Image = Properties.Resources.carrinho2;
+                chek.Text = "Produto1";
+                PictureBox pic = this.Controls.Find("PicProduto" + (num + 1), true).FirstOrDefault() as PictureBox;
+                var imagem = (Image)Properties.Resources.ResourceManager.GetObject("carrinho2");
+                pic.Image = imagem;
                 ListProdutos.Items.Remove(nomeProdutos[num]);
                 ListDescricao.Items.Remove(descricao[num]);
                 ListPreco.Items.Remove(produtos[num].ToString("c2"));
@@ -140,7 +142,6 @@ namespace Loja
         {
             alterarNum(7);
         }
-
         public void total() {
 
             double resultado = 0;
@@ -149,7 +150,6 @@ namespace Loja
             }
             LblTotal.Text = resultado.ToString("c2");
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
