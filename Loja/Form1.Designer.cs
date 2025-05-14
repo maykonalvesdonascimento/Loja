@@ -127,6 +127,7 @@
             this.NumP1.Name = "NumP1";
             this.NumP1.Size = new System.Drawing.Size(54, 20);
             this.NumP1.TabIndex = 2;
+            this.NumP1.Visible = false;
             this.NumP1.ValueChanged += new System.EventHandler(this.NumP1_ValueChanged);
             // 
             // ChkP1
@@ -185,6 +186,8 @@
             this.NumP2.Name = "NumP2";
             this.NumP2.Size = new System.Drawing.Size(54, 20);
             this.NumP2.TabIndex = 9;
+            this.NumP2.Visible = false;
+            this.NumP2.ValueChanged += new System.EventHandler(this.NumP2_ValueChanged);
             // 
             // ChkP2
             // 
@@ -215,6 +218,8 @@
             this.NumP3.Name = "NumP3";
             this.NumP3.Size = new System.Drawing.Size(54, 20);
             this.NumP3.TabIndex = 13;
+            this.NumP3.Visible = false;
+            this.NumP3.ValueChanged += new System.EventHandler(this.NumP3_ValueChanged);
             // 
             // ChkP3
             // 
@@ -245,6 +250,8 @@
             this.NumP4.Name = "NumP4";
             this.NumP4.Size = new System.Drawing.Size(54, 20);
             this.NumP4.TabIndex = 17;
+            this.NumP4.Visible = false;
+            this.NumP4.ValueChanged += new System.EventHandler(this.NumP4_ValueChanged);
             // 
             // ChkP4
             // 
@@ -275,6 +282,8 @@
             this.NumP5.Name = "NumP5";
             this.NumP5.Size = new System.Drawing.Size(54, 20);
             this.NumP5.TabIndex = 21;
+            this.NumP5.Visible = false;
+            this.NumP5.ValueChanged += new System.EventHandler(this.NumP5_ValueChanged);
             // 
             // ChkP5
             // 
@@ -305,6 +314,8 @@
             this.NumP6.Name = "NumP6";
             this.NumP6.Size = new System.Drawing.Size(54, 20);
             this.NumP6.TabIndex = 25;
+            this.NumP6.Visible = false;
+            this.NumP6.ValueChanged += new System.EventHandler(this.NumP6_ValueChanged);
             // 
             // ChkP6
             // 
@@ -335,6 +346,8 @@
             this.NumP7.Name = "NumP7";
             this.NumP7.Size = new System.Drawing.Size(54, 20);
             this.NumP7.TabIndex = 29;
+            this.NumP7.Visible = false;
+            this.NumP7.ValueChanged += new System.EventHandler(this.NumP7_ValueChanged);
             // 
             // ChkP7
             // 
@@ -365,6 +378,8 @@
             this.NumP8.Name = "NumP8";
             this.NumP8.Size = new System.Drawing.Size(54, 20);
             this.NumP8.TabIndex = 33;
+            this.NumP8.Visible = false;
+            this.NumP8.ValueChanged += new System.EventHandler(this.NumP8_ValueChanged);
             // 
             // ChkP8
             // 
