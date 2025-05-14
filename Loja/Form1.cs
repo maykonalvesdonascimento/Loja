@@ -37,9 +37,7 @@ namespace Loja
                 chek.Text = nomeProdutos[num];
                 PictureBox pic = this.Controls.Find("PicProduto" + (num+1), true).FirstOrDefault() as PictureBox;               
                 var imagem = (Image)Properties.Resources.ResourceManager.GetObject(nomeImagens[num]);                
-                pic.Image = imagem;
-
-           
+                pic.Image = imagem;           
                 ListProdutos.Items.Add(nomeProdutos[num]);
                 ListDescricao.Items.Add(descricao[num]);
                 ListPreco.Items.Add(produtos[num].ToString("c2"));
