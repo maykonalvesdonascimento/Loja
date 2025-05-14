@@ -73,6 +73,7 @@
             this.PicProduto1 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.NumP1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumP2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumP3)).BeginInit();
@@ -122,7 +123,7 @@
             // 
             // NumP1
             // 
-            this.NumP1.Location = new System.Drawing.Point(615, 47);
+            this.NumP1.Location = new System.Drawing.Point(634, 47);
             this.NumP1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NumP1.Name = "NumP1";
             this.NumP1.Size = new System.Drawing.Size(54, 20);
@@ -181,7 +182,7 @@
             // 
             // NumP2
             // 
-            this.NumP2.Location = new System.Drawing.Point(777, 47);
+            this.NumP2.Location = new System.Drawing.Point(817, 47);
             this.NumP2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NumP2.Name = "NumP2";
             this.NumP2.Size = new System.Drawing.Size(54, 20);
@@ -192,7 +193,7 @@
             // ChkP2
             // 
             this.ChkP2.AutoSize = true;
-            this.ChkP2.Location = new System.Drawing.Point(686, 50);
+            this.ChkP2.Location = new System.Drawing.Point(703, 50);
             this.ChkP2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ChkP2.Name = "ChkP2";
             this.ChkP2.Size = new System.Drawing.Size(81, 17);
@@ -204,7 +205,7 @@
             // LBLP2
             // 
             this.LBLP2.AutoSize = true;
-            this.LBLP2.Location = new System.Drawing.Point(716, 181);
+            this.LBLP2.Location = new System.Drawing.Point(733, 181);
             this.LBLP2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBLP2.Name = "LBLP2";
             this.LBLP2.Size = new System.Drawing.Size(53, 13);
@@ -213,7 +214,7 @@
             // 
             // NumP3
             // 
-            this.NumP3.Location = new System.Drawing.Point(934, 47);
+            this.NumP3.Location = new System.Drawing.Point(997, 47);
             this.NumP3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NumP3.Name = "NumP3";
             this.NumP3.Size = new System.Drawing.Size(54, 20);
@@ -224,7 +225,7 @@
             // ChkP3
             // 
             this.ChkP3.AutoSize = true;
-            this.ChkP3.Location = new System.Drawing.Point(843, 50);
+            this.ChkP3.Location = new System.Drawing.Point(885, 50);
             this.ChkP3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ChkP3.Name = "ChkP3";
             this.ChkP3.Size = new System.Drawing.Size(81, 17);
@@ -236,7 +237,7 @@
             // LBLP3
             // 
             this.LBLP3.AutoSize = true;
-            this.LBLP3.Location = new System.Drawing.Point(873, 181);
+            this.LBLP3.Location = new System.Drawing.Point(915, 181);
             this.LBLP3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBLP3.Name = "LBLP3";
             this.LBLP3.Size = new System.Drawing.Size(53, 13);
@@ -245,7 +246,7 @@
             // 
             // NumP4
             // 
-            this.NumP4.Location = new System.Drawing.Point(1091, 47);
+            this.NumP4.Location = new System.Drawing.Point(1170, 47);
             this.NumP4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NumP4.Name = "NumP4";
             this.NumP4.Size = new System.Drawing.Size(54, 20);
@@ -256,7 +257,7 @@
             // ChkP4
             // 
             this.ChkP4.AutoSize = true;
-            this.ChkP4.Location = new System.Drawing.Point(999, 50);
+            this.ChkP4.Location = new System.Drawing.Point(1061, 50);
             this.ChkP4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ChkP4.Name = "ChkP4";
             this.ChkP4.Size = new System.Drawing.Size(81, 17);
@@ -268,7 +269,7 @@
             // LBLP4
             // 
             this.LBLP4.AutoSize = true;
-            this.LBLP4.Location = new System.Drawing.Point(1030, 181);
+            this.LBLP4.Location = new System.Drawing.Point(1092, 181);
             this.LBLP4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBLP4.Name = "LBLP4";
             this.LBLP4.Size = new System.Drawing.Size(53, 13);
@@ -277,7 +278,7 @@
             // 
             // NumP5
             // 
-            this.NumP5.Location = new System.Drawing.Point(615, 214);
+            this.NumP5.Location = new System.Drawing.Point(636, 214);
             this.NumP5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NumP5.Name = "NumP5";
             this.NumP5.Size = new System.Drawing.Size(54, 20);
@@ -309,7 +310,7 @@
             // 
             // NumP6
             // 
-            this.NumP6.Location = new System.Drawing.Point(777, 214);
+            this.NumP6.Location = new System.Drawing.Point(817, 214);
             this.NumP6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NumP6.Name = "NumP6";
             this.NumP6.Size = new System.Drawing.Size(54, 20);
@@ -320,7 +321,7 @@
             // ChkP6
             // 
             this.ChkP6.AutoSize = true;
-            this.ChkP6.Location = new System.Drawing.Point(686, 217);
+            this.ChkP6.Location = new System.Drawing.Point(703, 217);
             this.ChkP6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ChkP6.Name = "ChkP6";
             this.ChkP6.Size = new System.Drawing.Size(81, 17);
@@ -332,7 +333,7 @@
             // LBLP6
             // 
             this.LBLP6.AutoSize = true;
-            this.LBLP6.Location = new System.Drawing.Point(716, 348);
+            this.LBLP6.Location = new System.Drawing.Point(733, 348);
             this.LBLP6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBLP6.Name = "LBLP6";
             this.LBLP6.Size = new System.Drawing.Size(53, 13);
@@ -341,7 +342,7 @@
             // 
             // NumP7
             // 
-            this.NumP7.Location = new System.Drawing.Point(934, 214);
+            this.NumP7.Location = new System.Drawing.Point(994, 214);
             this.NumP7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NumP7.Name = "NumP7";
             this.NumP7.Size = new System.Drawing.Size(54, 20);
@@ -352,7 +353,7 @@
             // ChkP7
             // 
             this.ChkP7.AutoSize = true;
-            this.ChkP7.Location = new System.Drawing.Point(843, 217);
+            this.ChkP7.Location = new System.Drawing.Point(885, 217);
             this.ChkP7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ChkP7.Name = "ChkP7";
             this.ChkP7.Size = new System.Drawing.Size(81, 17);
@@ -364,7 +365,7 @@
             // LBLP7
             // 
             this.LBLP7.AutoSize = true;
-            this.LBLP7.Location = new System.Drawing.Point(873, 348);
+            this.LBLP7.Location = new System.Drawing.Point(915, 348);
             this.LBLP7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBLP7.Name = "LBLP7";
             this.LBLP7.Size = new System.Drawing.Size(53, 13);
@@ -373,7 +374,7 @@
             // 
             // NumP8
             // 
-            this.NumP8.Location = new System.Drawing.Point(1091, 214);
+            this.NumP8.Location = new System.Drawing.Point(1165, 214);
             this.NumP8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NumP8.Name = "NumP8";
             this.NumP8.Size = new System.Drawing.Size(54, 20);
@@ -384,7 +385,7 @@
             // ChkP8
             // 
             this.ChkP8.AutoSize = true;
-            this.ChkP8.Location = new System.Drawing.Point(999, 217);
+            this.ChkP8.Location = new System.Drawing.Point(1061, 217);
             this.ChkP8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ChkP8.Name = "ChkP8";
             this.ChkP8.Size = new System.Drawing.Size(81, 17);
@@ -396,7 +397,7 @@
             // LBLP8
             // 
             this.LBLP8.AutoSize = true;
-            this.LBLP8.Location = new System.Drawing.Point(1030, 348);
+            this.LBLP8.Location = new System.Drawing.Point(1092, 348);
             this.LBLP8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBLP8.Name = "LBLP8";
             this.LBLP8.Size = new System.Drawing.Size(53, 13);
@@ -485,7 +486,7 @@
             this.groupBox1.Controls.Add(this.NumP1);
             this.groupBox1.Location = new System.Drawing.Point(1, 189);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1154, 387);
+            this.groupBox1.Size = new System.Drawing.Size(1229, 420);
             this.groupBox1.TabIndex = 45;
             this.groupBox1.TabStop = false;
             // 
@@ -504,7 +505,7 @@
             this.PicProduto8.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.PicProduto8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PicProduto8.Image = ((System.Drawing.Image)(resources.GetObject("PicProduto8.Image")));
-            this.PicProduto8.Location = new System.Drawing.Point(999, 240);
+            this.PicProduto8.Location = new System.Drawing.Point(1061, 240);
             this.PicProduto8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PicProduto8.Name = "PicProduto8";
             this.PicProduto8.Size = new System.Drawing.Size(101, 101);
@@ -516,7 +517,7 @@
             // 
             this.PicProduto7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PicProduto7.Image = ((System.Drawing.Image)(resources.GetObject("PicProduto7.Image")));
-            this.PicProduto7.Location = new System.Drawing.Point(843, 240);
+            this.PicProduto7.Location = new System.Drawing.Point(885, 240);
             this.PicProduto7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PicProduto7.Name = "PicProduto7";
             this.PicProduto7.Size = new System.Drawing.Size(101, 101);
@@ -528,7 +529,7 @@
             // 
             this.PicProduto6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PicProduto6.Image = ((System.Drawing.Image)(resources.GetObject("PicProduto6.Image")));
-            this.PicProduto6.Location = new System.Drawing.Point(686, 240);
+            this.PicProduto6.Location = new System.Drawing.Point(703, 240);
             this.PicProduto6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PicProduto6.Name = "PicProduto6";
             this.PicProduto6.Size = new System.Drawing.Size(101, 101);
@@ -552,7 +553,7 @@
             // 
             this.PicProduto4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PicProduto4.Image = ((System.Drawing.Image)(resources.GetObject("PicProduto4.Image")));
-            this.PicProduto4.Location = new System.Drawing.Point(999, 73);
+            this.PicProduto4.Location = new System.Drawing.Point(1061, 73);
             this.PicProduto4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PicProduto4.Name = "PicProduto4";
             this.PicProduto4.Size = new System.Drawing.Size(101, 101);
@@ -564,7 +565,7 @@
             // 
             this.PicProduto3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PicProduto3.Image = ((System.Drawing.Image)(resources.GetObject("PicProduto3.Image")));
-            this.PicProduto3.Location = new System.Drawing.Point(843, 73);
+            this.PicProduto3.Location = new System.Drawing.Point(885, 73);
             this.PicProduto3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PicProduto3.Name = "PicProduto3";
             this.PicProduto3.Size = new System.Drawing.Size(101, 101);
@@ -576,7 +577,7 @@
             // 
             this.PicProduto2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PicProduto2.Image = ((System.Drawing.Image)(resources.GetObject("PicProduto2.Image")));
-            this.PicProduto2.Location = new System.Drawing.Point(686, 73);
+            this.PicProduto2.Location = new System.Drawing.Point(703, 73);
             this.PicProduto2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PicProduto2.Name = "PicProduto2";
             this.PicProduto2.Size = new System.Drawing.Size(101, 101);
@@ -603,7 +604,7 @@
             this.pictureBox10.Location = new System.Drawing.Point(0, 0);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(1156, 152);
+            this.pictureBox10.Size = new System.Drawing.Size(1230, 152);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 42;
             this.pictureBox10.TabStop = false;
@@ -615,23 +616,38 @@
             this.pictureBox11.Location = new System.Drawing.Point(0, 149);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(1156, 47);
+            this.pictureBox11.Size = new System.Drawing.Size(1230, 47);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 43;
             this.pictureBox11.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(1171, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(53, 38);
+            this.button1.TabIndex = 46;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1155, 576);
+            this.ClientSize = new System.Drawing.Size(1227, 611);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.LblTotal);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -705,6 +721,7 @@
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.Button button1;
     }
 }
 

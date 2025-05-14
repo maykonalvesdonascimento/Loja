@@ -149,5 +149,10 @@ namespace Loja
             }
             LblTotal.Text = resultado.ToString("c2");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
